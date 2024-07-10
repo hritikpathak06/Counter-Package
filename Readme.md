@@ -35,8 +35,8 @@ function Counter() {
 }
 
 ```
-```bash
 Parameters
+```bash
 
 initialValue (optional): The initial value for the counter. Defaults to 0.
 
@@ -53,9 +53,9 @@ Easy-to-use React hook
 Lightweight with no external dependencies
 TypeScript support
 ```
-```bash
 Example
 Here's a complete example of how to use the useCounter hook in a React component:
+```bash
 
 import React from 'react';
 import { useCounter } from 'ritik-counter';
