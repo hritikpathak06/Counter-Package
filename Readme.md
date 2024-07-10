@@ -10,6 +10,7 @@ npm install ritik-counter
 
 Using yarn:
 yarn add ritik-counter
+```
 
 
 useCounter
