@@ -7,15 +7,18 @@ A simple and lightweight React hook for managing a counter state.
 Using npm:
 ```bash
 npm install ritik-counter
-
+```
+```bash
 Using yarn:
 yarn add ritik-counter
 ```
 
 
 useCounter
+```bash
 const { count, increment, decrement } = useCounter(initialValue);
-
+```
+```bash
 import React from 'react';
 import { useCounter } from 'ritik-counter';
 
@@ -31,6 +34,8 @@ function Counter() {
   );
 }
 
+```
+```bash
 Parameters
 
 initialValue (optional): The initial value for the counter. Defaults to 0.
@@ -47,7 +52,8 @@ Features
 Easy-to-use React hook
 Lightweight with no external dependencies
 TypeScript support
-
+```
+```bash
 Example
 Here's a complete example of how to use the useCounter hook in a React component:
 
@@ -68,6 +74,7 @@ function CounterExample() {
 }
 
 export default CounterExample;
+```
 
 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check issues page.
